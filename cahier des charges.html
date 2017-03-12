@@ -1,0 +1,1031 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<title></title>
+	<meta name="generator" content="LibreOffice 5.1.6.2 (Linux)"/>
+	<meta name="author" content="Dominique Corte"/>
+	<meta name="created" content="2015-10-26T09:57:00"/>
+	<meta name="changedby" content="Drusus"/>
+	<meta name="changed" content="2017-01-15T17:24:00"/>
+	<meta name="AppVersion" content="15.0000"/>
+	<meta name="Company" content="DSI-Rectorat de Versailles"/>
+	<meta name="DocSecurity" content="0"/>
+	<meta name="HyperlinksChanged" content="false"/>
+	<meta name="LinksUpToDate" content="false"/>
+	<meta name="ScaleCrop" content="false"/>
+	<meta name="ShareDoc" content="false"/>
+	<style type="text/css">
+		@page { margin-left: 0.43in; margin-right: 0.43in; margin-top: 0.49in; margin-bottom: 0.49in }
+		p { margin-bottom: 0.1in; direction: ltr; line-height: 120%; text-align: left; orphans: 2; widows: 2 }
+		h1 { margin-top: 0.33in; margin-bottom: 0in; direction: ltr; line-height: 115%; text-align: left; orphans: 2; widows: 2; page-break-after: auto }
+		h1.western { font-family: "Cambria", serif; font-size: 14pt }
+		h1.cjk { font-family: ; font-size: 14pt }
+		h1.ctl { font-family: ; font-size: 14pt }
+		h2 { margin-left: 0.41in; text-indent: -0.25in; margin-bottom: 0in; direction: ltr; line-height: 115%; text-align: left; orphans: 2; widows: 2; page-break-after: auto }
+		h2.western { font-family: "Cambria", serif; font-size: 13pt }
+		h2.cjk { font-family: ; font-size: 13pt }
+		h2.ctl { font-family: ; font-size: 13pt }
+		a:link { color: #0000ff }
+	</style>
+</head>
+<body lang="fr-FR" link="#0000ff" dir="ltr">
+<div title="header">
+	<p align="right" style="margin-bottom: 0in; line-height: 100%"><span lang="en-GB">Donel
+	Le Jossec</span></p>
+	<p align="right" style="margin-bottom: 0in; line-height: 100%"><span lang="en-GB">Rudy
+	Clot</span></p>
+	<p align="right" style="margin-bottom: 0in; line-height: 100%"><span lang="en-GB">Timoty
+	Razafimahefa</span></p>
+	<p align="right" style="margin-bottom: 0in; line-height: 100%"><span lang="en-GB">Gaël
+	Gnonlonfoun</span></p>
+</div>
+<p style="margin-bottom: 0in; line-height: 100%"> <img src="data:image/png;base64,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" name="Image 3" align="left" hspace="12" width="204" height="138" border="0"/>
+
+                 <font face="TimesNewRomanPS-BoldMT, serif"><font size="4" style="font-size: 16pt"><b>Année
+préparatoire intégrée</b></font></font></p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><font face="TimesNewRomanPS-BoldMT, serif"><font size="4" style="font-size: 16pt"><b>Option
+: Informatique</b></font></font></p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><font face="TimesNewRomanPS-BoldMT, serif"><font size="4" style="font-size: 14pt"><b>PROJET
+TECHNIQUE</b></font></font></p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><font face="TimesNewRomanPS-BoldMT, serif"><font size="2" style="font-size: 10pt"><b>Dossier
+de présentation et de validation du projet</b></font></font></p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<table width="716" cellpadding="7" cellspacing="0">
+	<col width="134">
+	<col width="246">
+	<col width="292">
+	<tr valign="top">
+		<td colspan="2" width="394" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p><font face="TimesNewRomanPS-BoldMT, serif"><font size="3" style="font-size: 12pt"><b>Groupement
+			académique&nbsp;: Créteil</b></font></font></p>
+		</td>
+		<td width="292" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p><font face="TimesNewRomanPS-BoldMT, serif"><font size="3" style="font-size: 12pt"><b>Session
+			: 2017</b></font></font></p>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="3" width="700" valign="top" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p><font face="TimesNewRomanPS-BoldMT, serif"><font size="3" style="font-size: 12pt"><b>Ecole&nbsp;:
+			Ecoles pour l’Informatique et les&nbsp;Techniques avancées</b></font></font></p>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="3" width="700" valign="top" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p><font face="TimesNewRomanPS-BoldMT, serif"><font size="3" style="font-size: 12pt"><b>Ville
+			: Villejuif</b></font></font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="134" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p><br/>
+
+			</p>
+		</td>
+		<td colspan="2" width="552" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p><font face="TimesNewRomanPS-BoldMT, serif"><font size="3" style="font-size: 12pt"><b>Nom
+			du projet :</b></font></font><font face="Cambria, serif"><font size="3" style="font-size: 12pt"><b>
+			APIcasso</b></font></font></p>
+		</td>
+	</tr>
+</table>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<table width="725" cellpadding="7" cellspacing="0">
+	<col width="134">
+	<col width="43">
+	<col width="43">
+	<col width="51">
+	<col width="2">
+	<col width="118">
+	<col width="118">
+	<col width="103">
+	<tbody>
+		<tr valign="top">
+			<td width="134" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+				<p><font face="Times New Roman, serif"><font size="2" style="font-size: 10pt">Projet
+				nouveau</font></font></p>
+			</td>
+			<td width="43" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+				<p><font face="Times New Roman, serif"><font size="2" style="font-size: 10pt">Oui
+				</font></font><font face="Wingdings, serif"><font size="3" style="font-size: 12pt"></font></font></p>
+			</td>
+			<td width="43" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+				<p><font face="Times New Roman, serif"><font size="2" style="font-size: 10pt">Non
+				</font></font><font face="Wingdings, serif"><font size="3" style="font-size: 12pt"></font></font></p>
+			</td>
+			<td width="51" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+				<p><br/>
+
+				</p>
+			</td>
+			<td width="2" style="border-top: none; border-bottom: none; border-left: 1px solid #00000a; border-right: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+				<p><br/>
+
+				</p>
+			</td>
+			<td width="118" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+				<p><font face="Times New Roman, serif"><font size="2" style="font-size: 10pt">Projet
+				interne</font></font></p>
+			</td>
+			<td width="118" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+				<p><font face="Times New Roman, serif"><font size="2" style="font-size: 10pt">Oui</font></font><font face="Wingdings, serif"><font size="3" style="font-size: 12pt"></font></font></p>
+			</td>
+			<td width="103" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+				<p><font face="Times New Roman, serif"><font size="2" style="font-size: 10pt">Non
+				</font></font><font face="Wingdings, serif"><font size="3" style="font-size: 12pt"></font></font></p>
+			</td>
+		</tr>
+		<tr valign="top">
+			<td width="134" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+				<p><br/>
+
+				</p>
+			</td>
+			<td width="43" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+				<p><br/>
+
+				</p>
+			</td>
+			<td width="43" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+				<p><br/>
+
+				</p>
+			</td>
+			<td width="51" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+				<p><br/>
+
+				</p>
+			</td>
+			<td width="2" style="border-top: none; border-bottom: none; border-left: 1px solid #00000a; border-right: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+				<p><br/>
+
+				</p>
+			</td>
+			<td width="118" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+				<p><font face="TimesNewRomanPSMT, serif"><font size="2" style="font-size: 10pt">Statut
+				des étudiants</font></font></p>
+			</td>
+			<td width="118" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+				<p><font face="TimesNewRomanPSMT, serif"><font size="2" style="font-size: 10pt"><span style="letter-spacing: -0.2pt">Formation
+				initiale </span></font></font><font face="Wingdings, serif"><font size="3" style="font-size: 12pt"></font></font></p>
+			</td>
+			<td width="103" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+				<p><font face="TimesNewRomanPSMT, serif"><font size="2" style="font-size: 10pt">Apprentissage
+				</font></font><font face="Wingdings, serif"><font size="3" style="font-size: 12pt"></font></font></p>
+			</td>
+		</tr>
+		<tr valign="top">
+			<td width="134" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+				<p><font face="Times New Roman, serif"><font size="2" style="font-size: 10pt">Spécialité
+				des étudiants</font></font></p>
+			</td>
+			<td width="43" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+				<p><font face="Times New Roman, serif"><font size="2" style="font-size: 10pt">Sup&nbsp;</font></font><font face="Wingdings, serif"><font size="3" style="font-size: 12pt"></font></font></p>
+			</td>
+			<td width="43" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+				<p> <font face="Times New Roman, serif"><font size="2" style="font-size: 10pt">Spé
+				</font></font><font face="Wingdings, serif"><font size="3" style="font-size: 12pt"></font></font></p>
+			</td>
+			<td width="51" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+				<p><font face="Times New Roman, serif"><font size="2" style="font-size: 10pt">API
+				</font></font><font face="Wingdings, serif"><font size="3" style="font-size: 12pt"></font></font></p>
+			</td>
+			<td width="2" style="border-top: none; border-bottom: none; border-left: 1px solid #00000a; border-right: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+				<p><br/>
+
+				</p>
+			</td>
+			<td colspan="3" width="367" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+				<p><font face="Times New Roman, serif"><font size="2" style="font-size: 10pt">Nombre
+				d’étudiants&nbsp;: </font></font><font face="Times New Roman, serif"><font size="2" style="font-size: 10pt"><b>4</b></font></font></p>
+			</td>
+		</tr>
+	</tbody>
+	<tbody>
+		<tr valign="top">
+			<td colspan="2" width="191" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+				<p><font face="Times New Roman, serif">Professeurs responsables&nbsp;:</font></p>
+			</td>
+			<td colspan="6" width="505" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+				<p><font face="Times New Roman, serif"><font size="2" style="font-size: 10pt">M.BURELLLE
+				/ C.BOULLAY</font></font></p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<p style="margin-bottom: 0.14in; line-height: 115%"><br/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0.14in; line-height: 115%"><font face="TimesNewRomanPS-BoldMT, serif"><font size="4" style="font-size: 16pt"><b>Sommaire</b></font></font></p>
+<div id="Table of Contents1" dir="ltr">
+	<p style="margin-bottom: 0.07in; line-height: 115%"><a href="#_Toc431935213">1	Présentation
+	et situation du projet dans son environnement	2</a></p>
+	<p style="margin-left: 0.15in; margin-bottom: 0.07in; line-height: 115%">
+	<a href="#_Toc431935214">1.1	Contexte de réalisation	2</a></p>
+	<p style="margin-left: 0.15in; margin-bottom: 0.07in; line-height: 115%">
+	<a href="#_Toc431935215">1.2	Présentation du projet	2</a></p>
+	<p style="margin-left: 0.15in; margin-bottom: 0.07in; line-height: 115%">
+	<a href="#_Toc431935216">1.3	Situation du projet dans son contexte	</a>2</p>
+	<p style="margin-left: 0.15in; margin-bottom: 0.07in; line-height: 115%">
+	<a href="#_Toc431935217">1.4	Expression du besoin	</a>2</p>
+	<p style="margin-bottom: 0.07in; line-height: 115%"><a href="#_Toc431935218">2	Spécifications	</a>3</p>
+	<p style="margin-left: 0.15in; margin-bottom: 0.07in; line-height: 115%">
+	<a href="#_Toc431935220">2.1	Contraintes de réalisation	</a>3</p>
+	<p style="margin-bottom: 0.07in; line-height: 115%"><a href="#_Toc431935222">3	Répartition
+	des fonctions ou cas d’utilisation par étudiant	</a>4</p>
+	<p style="margin-bottom: 0.07in; line-height: 115%"><a href="#_Toc431935224">4	Planification
+		</a>5</p>
+	<p style="margin-bottom: 0.07in; line-height: 115%"><br/>
+<br/>
+
+	</p>
+	<p style="margin-left: 0.15in; margin-bottom: 0.07in; line-height: 115%">
+	<br/>
+<br/>
+
+	</p>
+	<p style="margin-bottom: 0.14in; line-height: 115%"><br/>
+<br/>
+
+	</p>
+</div>
+<p style="margin-bottom: 0.14in; line-height: 115%"><br/>
+<br/>
+
+</p>
+<ol>
+	<li/>
+<h1 class="western" style="page-break-before: always"><a name="_Toc431935213"></a>
+	Présentation et situation du projet dans son environnement</h1>
+	<ol>
+		<li/>
+<h2 class="western" style="text-indent: 0in"><a name="_Toc431935215"></a>
+		Présentation du projet</h2>
+	</ol>
+</ol>
+<p style="margin-bottom: 0.14in; line-height: 115%"><br/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0.14in; line-height: 115%">Depuis toujours,
+l’Homme a toujours essayer d’exprimer ses émotions et ses
+sentiments grâce à l’art (peinture, musique, texte etc…). Mais
+grâce à l’apparition d’internet et de l’informatique en
+général, il est de plus en plus simple de partager aux yeux de
+tous, nos propres créations.</p>
+<p style="margin-bottom: 0.14in; line-height: 115%">Le but de notre
+projet est donc de créer un logiciel de dessin et de retouche
+d’image.</p>
+<p style="margin-bottom: 0.14in; line-height: 115%"><br/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0.14in; line-height: 115%">Logiciel simple
+et intuitif&nbsp;:</p>
+<ul>
+	<li/>
+<p style="margin-bottom: 0.14in; line-height: 115%"><i>Interface
+	graphique complète, épurée.</i></p>
+</ul>
+<p style="margin-bottom: 0.14in; line-height: 115%"><br/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0.14in; line-height: 115%">Fonctionnalité
+d’un logiciel de dessin :</p>
+<ul>
+	<li/>
+<p align="justify" style="margin-bottom: 0.14in; line-height: 115%">
+	Dessiner des formes: rond, rectangle, trait etc…</p>
+	<li/>
+<p align="justify" style="margin-bottom: 0.14in; line-height: 115%">
+	Différents types de pinceaux et de couleurs.</p>
+	<li/>
+<p align="justify" style="margin-bottom: 0.14in; line-height: 115%">
+	Importation d’une image et modification de celle-ci</p>
+</ul>
+<p style="margin-bottom: 0.14in; line-height: 115%"><br/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0.14in; line-height: 115%">Notre groupe de
+projet souhaite donc réaliser la création de ce logiciel de dessin
+et garantir le bon fonctionnement de celui-ci.</p>
+<ol>
+	<ol start="2">
+		<li/>
+<h2 class="western" style="text-indent: 0in"><a name="_Toc431935216"></a>
+		Situation du projet dans son contexte</h2>
+	</ol>
+</ol>
+<p style="margin-left: 0.32in; margin-bottom: 0.14in; line-height: 115%">
+<br/>
+<br/>
+
+</p>
+<table width="728" cellpadding="7" cellspacing="0">
+	<col width="297">
+	<col width="401">
+	<tr valign="top">
+		<td width="297" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p><font face="TimesNewRomanPSMT, serif"><font size="2" style="font-size: 10pt">Domaine
+			d’activité du système support d’étude :</font></font></p>
+		</td>
+		<td width="401" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p style="margin-bottom: 0in"> <font face="TimesNewRomanPSMT, serif"><font size="2" style="font-size: 10pt">télécommunications,
+			téléphonie et réseaux téléphoniques&nbsp;:</font></font></p>
+			<p style="margin-bottom: 0in"> <font face="TimesNewRomanPSMT, serif"><font size="2" style="font-size: 10pt">informatique,
+			réseaux et infrastructures ;</font></font></p>
+			<p style="margin-bottom: 0in"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">multimédia,
+			son et image.</font></font></p>
+			<p style="margin-bottom: 0in"> <font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">mobilité
+			et systèmes embarqués.</font></font></p>
+			<p style="margin-bottom: 0in"><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">électronique
+			et informatique médicale.</font></font></p>
+			<p style="margin-bottom: 0in"> <font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">mesure,
+			instrumentation et micro-systèmes.</font></font></p>
+			<p><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">automatique
+			et robotique.</font></font></p>
+		</td>
+	</tr>
+</table>
+<h2 class="western"><br/>
+
+</h2>
+<ol>
+	<ol start="3">
+		<li/>
+<h2 class="western" style="text-indent: 0in"> Expression du
+		besoin</h2>
+	</ol>
+</ol>
+<p style="margin-bottom: 0.14in; line-height: 115%"><br/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%">L’application à
+développer a pour but de permettre de dessiner, importer une image
+sur une page et d’exporter le travail effectué (sauvegarder le
+travail)&nbsp;:</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<ul>
+	<li/>
+<p style="margin-bottom: 0in; line-height: 100%"><u><b>Pinceau&nbsp;:</b></u><b>
+	</b>Cette fonction permettra de tracer des formes à main levée
+	avec la possibilité de modifier la taille du pinceau.</p>
+	<li/>
+<p style="margin-bottom: 0in; line-height: 100%"><u><b>Gomme&nbsp;:</b></u>
+	Cette fonction permettra d’effacer une partie de l’image. Toute
+	comme le pinceau, la taille sera modifiable.</p>
+	<li/>
+<p style="margin-bottom: 0in; line-height: 100%"><u><b>Texte&nbsp;:</b></u>
+	Cette fonction permettra d’ajouter du texte sur notre page.</p>
+	<li/>
+<p style="margin-bottom: 0in; line-height: 100%"><u><b>Formes&nbsp;:
+	</b></u>Cette fonction nous permettra de dessiner des formes telles
+	que des rectangles, des ronds, des triangles etc…</p>
+	<li/>
+<p style="margin-bottom: 0in; line-height: 100%"><u><b>Pot de
+	peinture&nbsp;:</b></u> Cette fonction nous permettra de définir
+	une couleur sur notre page ou bien dans une zone encadrée (comme
+	une forme par exemple).</p>
+	<li/>
+<p style="margin-bottom: 0in; line-height: 100%"><u><b>Importer
+	une image&nbsp;:</b></u> Cette fonction permettra d’importer une
+	image pour faire des traitements dessus (redimensionnement, 
+	application de filtres etc…)</p>
+</ul>
+<p style="margin-bottom: 0in; line-height: 100%">Toutes les
+fonctionnalités de base devront être implémentées mais d’autres
+pourront faire leur apparition au cours du développement du projet.</p>
+<p style="margin-bottom: 0.14in; line-height: 115%"><br/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0.14in; line-height: 115%">Le synoptique du
+système est le suivant : 
+</p>
+<p style="margin-bottom: 0.14in; line-height: 115%"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZ8AAADQCAYAAADYm2yZAAAACXBIWXMAAA7AAAAOwwFB+9rKAAAmeUlEQVR4nO3dB3wU1doG8Cc9IRUCIYEAofciCRBqEOm9I11piqCooIifIKCgV71ciohUkYgKSpNuQhdBIBHpVXoLnYSQnm/fAwkBNpANm9mS5//7zSW7OzN7gt83D+ecd87Y79ixIzgyMrJ6dHS0O4iIiJ6Tu7t7dPXq1SODg4N3ZraPfUREROAvv/zSZcuWLSFaNo6IiKxTSEjIltTUVJunho/0eCR4vLy84oKCgmK1bCAREVmV23v27MkrmdK8efN1T9vRPu2HSpUqxYaFheXL+bYREZGV2lG/fn3PP/74o96zdrR/1g5ERETGxvAhIiLNMXyIiEhzDB8iItKc0cLn5s2buHr1qrFO91SFChWCm5ubJt9FRERZ5nH37l1X+eHSpUt+e/furaZvJ0dHxwSjhU9sbCwuXb2GGEdXY51SL4/4aHh7ezN8iIjMj1d0dLSL/HDu3Lkiu3btqqlvJz8/v0tGHXZLtLXHBc9Cj7xnm5qEuJh4OLrfDyUbpCA+JhZOuvBIldfxsUi0cYS9Y9aa4h51zJhNJiIi40mxsbGRSzvs7OySpYeT8UN7e/ukxMREB+kV5cicT2GHGPw68XPEFyqO9m0aYuvUMISMG4LkxGT4ucQgdPBo9Az9Fpd1oeTx12LstK+H8nVK5URTiIhIO7aysoH8kJycbJeQkOCY8UNfX9/L8t7ly5d9cyR8PO0SkHD+HpqOfg15Ey4hj2sSCl3egR8X/oHaDQKRfO8K/po/AZcSK6NbVVc43EqB09afEHEhBin2PgguchvL/ryOoG6vwLtw3pxoIhERmVCOVbvdijqC8PmheLVzA8RcuIj9K75Hi95T0TXQBptn/II67Xrg54mT4VCyBGyuX8CKsGWoGtISR/aFI86hOJwrvMjgISKyUjkWPl4+5dD4ld5wSjynXvuWKI3d4avhl1AcKbZ2sLG1hY3N/X0T7ZxRxr8kAspVRLPGrXAzMhSxKU451TQiIjKxHAmfk/EeCPpgBBLjk3AyNT8Ch7+F1EL5kP/4KRxy80ed0R/gsq03Xnj9XZx1c0Sx5Dxwf7EcTp+7jPO3k1CwRh/UA6vZiIisVY6ET3yqPVz9/JCaqvsZDrqffXXvAQVKlVWfO7i6Ikn3p6uPL6QUQurykuAMvzL3h9lSdBsfLkREZL24wgEREWnOqOFjl5KMfLE3jXlKPVJz+PxERJTTjBY+9vb28HB2hEdytLFOqZ+LC2xtbXP2O4iIKEcZLXwKFiyoNiIiomfhnA8REWkuW+GTkpKCe/fuGbstREQGcXZ2ljXETN0MyoZshU9iYiL+/vtvY7eFiMggefLkUfPNpI0iRYogb17jrDzz3P/V+K8OItJacnKy+lMe5ULakY6HsTx3+AQHB8MmbZ0cIiIN7N69G/Hx8ernEiVKZPqP4MjISEybNg1z5841epXs3r17UbZsWbi4uBj1vObo3LlziIuLM+o52V8lIouWP39+eTKm3s927NiBpKQkeaomqlevbrTv3LdvH3r37o1hw4bh//7v/4x2XlNI60U+bRTrypUrDB8ioqyQIaLz58+jVatW2LZtm9HC5/r163jnnXfw22+/4auvvsLy5cvRrl27Z44ARUREYPv27U/d54033jB4Duvu3btYsWIFunfvnuVRKAnkI0eOYOrUqervRorIGjdujCFDhqjenBbTKQwfIrIK0dHRaihMLqTi9u3bamhu4MCBaNasGapVq5a+r6urq3pt6IX+zp07eO211zB06FDUqlULM2bMQLdu3eQhaer10y7+mzdvxrVr1xAYGKj38w0bNqjANKRNqampmDVrlhpWbN68OfLly/fMY+Tv58cff0RoaChGjhyJ//3vf+ntk99Lfj/5nXIaw4eIrIL8a33BggWqF9C2bVv1uk2bNmpORuam5YJ74cIFbN26FVOmTMELL7xg0Pnloj19+nTUqVMHHTp0UO8VKFAAkyZNwvjx49V3u7llvhq/BFPdunXRunVrvZ/funXLoPYI6YWtW7dODQFKmMgw4LNERUXhu+++w8KFC1GoUKH096WHWKVKFfV317JlS7i75+zyzgwfIrIKUnb99ddfq16IzAF98MEHcHBwUJ99+eWXOHr0KF5//XX8/PPPaNGihUGFUtLDWLZsGQ4dOoQ5c+Y88lnVqlXx8ssvq17D7Nmz078zp0mbFi9erMKiR48e6NOnD3r16gVvb++nHjdq1ChUqlQJfn5+T3zm7++PevXqqXksGZLLSQwfIrIaTk5Oaihp9OjR+PjjjzFx4kT1/tWrVzFixAiMHTsWISEhBp/34MGDmDlzJr7//nv1HRlJ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"/>
+</p>
+<p align="right" style="margin-bottom: 0.14in; line-height: 115%">	<font color="#ff0000"><font size="4" style="font-size: 14pt"><u><b>Ebauche
+de l’interface d’APIcasso</b></u></font></font></p>
+<p style="margin-bottom: 0.14in; line-height: 115%"><br/>
+<br/>
+
+</p>
+<ol start="2">
+	<li/>
+<h1 class="western"><a name="_Toc431935218"></a>Spécifications</h1>
+	<ol>
+		<li/>
+<h2 class="western" style="text-indent: 0in"><a name="_Toc431935220"></a>
+		Contraintes de réalisation</h2>
+	</ol>
+</ol>
+<p style="margin-left: 0.41in; margin-bottom: 0.14in; line-height: 115%">
+Le projet sera développé en  sous Linux et sera codé en C et devra
+fonctionner  sur toutes les machines de l’école.  Les soutenances
+se déroulant sur les machines de l’école, notre programme devra
+bien entendu fonctionner sur celle-ci.</p>
+<p style="margin-left: 0.41in; margin-bottom: 0.14in; line-height: 115%">
+Pour réaliser à bien ce projet, nous allons devoir utiliser de
+nombreuses librairies telles que SDL pour tout ce qui est gestion
+d’image et dessin ainsi que GTK (combiner avec Glade) pour créer
+l’interface de l’application.</p>
+<ol start="3">
+	<li/>
+<h1 class="western"><a name="_Toc431935222"></a>Répartition
+	des fonctions des étudiant</h1>
+</ol>
+<p style="margin-bottom: 0.14in; line-height: 115%">	</p>
+<p style="margin-bottom: 0.14in; line-height: 115%">La création du
+logiciel de dessin se décompose en plusieurs phases&nbsp;:</p>
+<ol>
+	<li/>
+<p style="margin-bottom: 0.14in; line-height: 115%">Les
+	fonctions de bases d’un logiciel de dessin devront être
+	absolument implémentées pour un fonctionnement correct du
+	logiciel. C’est une des phases les plus importantes du projet.</p>
+	<li/>
+<p style="margin-bottom: 0.14in; line-height: 115%"><a name="_GoBack"></a>
+	Pour que les fonctions de bases soient correctement utilisées, nous
+	devons disposer d’une IHM performante et facile d’utilisation.
+	Cette phase est tout aussi importante que la première car elles
+	correspondent toutes les deux au cœur du projet.</p>
+	<li/>
+<p style="margin-bottom: 0.14in; line-height: 115%">Par la
+	suite, le logiciel devra être capable de créer des formes
+	(expliqué ci-dessus).</p>
+	<li/>
+<p style="margin-bottom: 0.14in; line-height: 115%">Ensuite,
+	nous devrons être capables de présenter un logiciel qui appliquera
+	quelques filtres, mais également tout ce qui concerne le traitement
+	d’une image (redimensionner, pivoter etc.…)</p>
+	<li/>
+<p style="margin-bottom: 0.14in; line-height: 115%">Pour
+	chaque soutenance, nous devrons être munis d’un site web pour
+	présenter l’avancement et l’état de notre projet.</p>
+</ol>
+<table width="725" cellpadding="7" cellspacing="0">
+	<col width="130">
+	<col width="131">
+	<col width="131">
+	<col width="131">
+	<col width="130">
+	<tr>
+		<td colspan="5" width="709" height="6" valign="top" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p align="center"><font face="Cambria, serif">Première soutenance</font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="130" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p><font face="Cambria, serif">Etudiant</font></p>
+		</td>
+		<td width="131" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p><font face="Cambria, serif"><b>Donel</b></font></p>
+		</td>
+		<td width="131" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p><font face="Cambria, serif"><b>Timothy </b></font>
+			</p>
+		</td>
+		<td width="131" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p><font face="Cambria, serif"><b>Rudy</b></font></p>
+		</td>
+		<td width="130" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p><font face="Cambria, serif"><b>Gaël</b></font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="130" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p><font face="Cambria, serif">Fonctions de dessin</font></p>
+		</td>
+		<td width="131" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p align="center"><font color="#ffc000"><font size="4" style="font-size: 16pt"><b>X</b></font></font></p>
+		</td>
+		<td width="131" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p align="center"><br/>
+
+			</p>
+		</td>
+		<td width="131" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p align="center"><font color="#ffc000"><font face="Cambria, serif"><font size="4" style="font-size: 14pt">x</font></font></font></p>
+		</td>
+		<td width="130" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p align="center"><br/>
+
+			</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="130" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p><font face="Cambria, serif">IHM</font></p>
+		</td>
+		<td width="131" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p align="center"><font color="#ffc000"><font face="Cambria, serif"><font size="4" style="font-size: 14pt">x</font></font></font></p>
+		</td>
+		<td width="131" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p align="center"><font color="#ffc000"><font size="4" style="font-size: 16pt"><b>X</b></font></font></p>
+		</td>
+		<td width="131" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p align="center"><br/>
+
+			</p>
+		</td>
+		<td width="130" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p align="center"><br/>
+
+			</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="130" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p><font face="Cambria, serif">Recherches sur les algorithmes de
+			formes</font></p>
+		</td>
+		<td width="131" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p align="center"><br/>
+
+			</p>
+		</td>
+		<td width="131" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p align="center"><br/>
+
+			</p>
+		</td>
+		<td width="131" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p align="center"><font color="#ffc000"><font size="4" style="font-size: 16pt"><b>X</b></font></font></p>
+		</td>
+		<td width="130" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p align="center"><font color="#ffc000"><font face="Cambria, serif"><font size="4" style="font-size: 14pt">x</font></font></font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="130" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p><font face="Cambria, serif">Gestionnaire de l’application</font></p>
+		</td>
+		<td width="131" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p align="center"><font color="#ff0000"><font size="4" style="font-size: 16pt"><b>X</b></font></font></p>
+		</td>
+		<td width="131" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p align="center"><font color="#ff0000"><font face="Cambria, serif"><font size="4" style="font-size: 14pt">x</font></font></font></p>
+		</td>
+		<td width="131" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p align="center"><br/>
+
+			</p>
+		</td>
+		<td width="130" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p align="center"><br/>
+
+			</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="130" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p><font face="Cambria, serif">Traitement général de l’image</font></p>
+		</td>
+		<td width="131" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p align="center"><br/>
+
+			</p>
+		</td>
+		<td width="131" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p align="center"><br/>
+
+			</p>
+		</td>
+		<td width="131" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p align="center"><font color="#ff0000"><font size="4" style="font-size: 16pt"><b>X</b></font></font></p>
+		</td>
+		<td width="130" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p align="center"><font color="#ff0000"><font face="Cambria, serif"><font size="4" style="font-size: 14pt">x</font></font></font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="130" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p><font face="Cambria, serif">Site web</font></p>
+		</td>
+		<td width="131" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p align="center"><br/>
+
+			</p>
+		</td>
+		<td width="131" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p align="center"><font color="#ffc000"><font face="Cambria, serif"><font size="4" style="font-size: 14pt">x</font></font></font></p>
+		</td>
+		<td width="131" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p align="center"><br/>
+
+			</p>
+		</td>
+		<td width="130" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p align="center"><font color="#ffc000"><font size="4" style="font-size: 16pt"><b>X</b></font></font></p>
+		</td>
+	</tr>
+</table>
+<p style="margin-bottom: 0.14in; line-height: 115%"><br/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0.14in; line-height: 115%"><br/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0.14in; line-height: 115%"><br/>
+<br/>
+
+</p>
+<table width="725" cellpadding="7" cellspacing="0">
+	<col width="130">
+	<col width="131">
+	<col width="131">
+	<col width="131">
+	<col width="130">
+	<tr>
+		<td colspan="5" width="709" height="6" valign="top" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p align="center"><font face="Cambria, serif">Deuxième soutenance</font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="130" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p><font face="Cambria, serif">Etudiant</font></p>
+		</td>
+		<td width="131" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p><font face="Cambria, serif"><b>Donel</b></font></p>
+		</td>
+		<td width="131" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p><font face="Cambria, serif"><b>Timothy </b></font>
+			</p>
+		</td>
+		<td width="131" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p><font face="Cambria, serif"><b>Rudy</b></font></p>
+		</td>
+		<td width="130" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p><font face="Cambria, serif"><b>Gaël</b></font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="130" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p><font face="Cambria, serif">Fonctions de dessin</font></p>
+		</td>
+		<td width="131" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p align="center"><font color="#ffc000"><font size="4" style="font-size: 16pt"><b>X</b></font></font></p>
+		</td>
+		<td width="131" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p align="center"><br/>
+
+			</p>
+		</td>
+		<td width="131" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p align="center"><font color="#ffc000"><font face="Cambria, serif"><font size="4" style="font-size: 14pt">x</font></font></font></p>
+		</td>
+		<td width="130" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p align="center"><br/>
+
+			</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="130" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p><font face="Cambria, serif">IHM</font></p>
+		</td>
+		<td width="131" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p align="center"><font color="#00b050"><font face="Cambria, serif"><font size="4" style="font-size: 16pt">x</font></font></font></p>
+		</td>
+		<td width="131" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p align="center"><font color="#00b050"><font size="4" style="font-size: 16pt"><b>X</b></font></font></p>
+		</td>
+		<td width="131" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p align="center"><br/>
+
+			</p>
+		</td>
+		<td width="130" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p align="center"><br/>
+
+			</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="130" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p><font face="Cambria, serif">Recherches sur les algorithmes de
+			formes</font></p>
+		</td>
+		<td width="131" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p align="center"><br/>
+
+			</p>
+		</td>
+		<td width="131" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p align="center"><br/>
+
+			</p>
+		</td>
+		<td width="131" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p align="center"><font color="#00b050"><font size="4" style="font-size: 16pt"><b>X</b></font></font></p>
+		</td>
+		<td width="130" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p align="center"><font color="#00b050"><font face="Cambria, serif">x</font></font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="130" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p><font face="Cambria, serif">Gestionnaire de l’application</font></p>
+		</td>
+		<td width="131" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p align="center"><font color="#ffc000"><font size="4" style="font-size: 16pt"><b>X</b></font></font></p>
+		</td>
+		<td width="131" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p align="center"><font color="#ffc000"><font face="Cambria, serif"><font size="4" style="font-size: 14pt">x</font></font></font></p>
+		</td>
+		<td width="131" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p align="center"><br/>
+
+			</p>
+		</td>
+		<td width="130" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p align="center"><br/>
+
+			</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="130" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p><font face="Cambria, serif">Traitement général de l’image</font></p>
+		</td>
+		<td width="131" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p align="center"><br/>
+
+			</p>
+		</td>
+		<td width="131" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p align="center"><br/>
+
+			</p>
+		</td>
+		<td width="131" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p align="center"><font color="#ffc000"><font size="4" style="font-size: 16pt"><b>X</b></font></font></p>
+		</td>
+		<td width="130" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p align="center"><font color="#ffc000"><font face="Cambria, serif">x</font></font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="130" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p><font face="Cambria, serif">Site web</font></p>
+		</td>
+		<td width="131" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p align="center"><br/>
+
+			</p>
+		</td>
+		<td width="131" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p align="center"><font color="#ffc000"><font face="Cambria, serif"><font size="4" style="font-size: 14pt">x</font></font></font></p>
+		</td>
+		<td width="131" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p align="center"><br/>
+
+			</p>
+		</td>
+		<td width="130" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p align="center"><font color="#ffc000"><font size="4" style="font-size: 16pt"><b>X</b></font></font></p>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="5" width="709" height="7" valign="top" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p align="center"><font face="Cambria, serif">Troisième
+			soutenance</font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="130" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p><font face="Cambria, serif">Etudiant</font></p>
+		</td>
+		<td width="131" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p><font face="Cambria, serif"><b>Donel</b></font></p>
+		</td>
+		<td width="131" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p><font face="Cambria, serif"><b>Timothy </b></font>
+			</p>
+		</td>
+		<td width="131" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p><font face="Cambria, serif"><b>Rudy</b></font></p>
+		</td>
+		<td width="130" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p><font face="Cambria, serif"><b>Gaël</b></font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="130" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p><font face="Cambria, serif">Fonctions de dessin</font></p>
+		</td>
+		<td width="131" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p align="center"><font color="#00b050"><font size="4" style="font-size: 16pt"><b>X</b></font></font></p>
+		</td>
+		<td width="131" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p align="center"><br/>
+
+			</p>
+		</td>
+		<td width="131" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p align="center"><font color="#00b050"><font face="Cambria, serif">x</font></font></p>
+		</td>
+		<td width="130" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p align="center"><br/>
+
+			</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="130" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p><font face="Cambria, serif">IHM</font></p>
+		</td>
+		<td width="131" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p align="center"><font color="#00b050"><font face="Cambria, serif">x</font></font></p>
+		</td>
+		<td width="131" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p align="center"><font color="#00b050"><font size="4" style="font-size: 16pt"><b>X</b></font></font></p>
+		</td>
+		<td width="131" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p align="center"><br/>
+
+			</p>
+		</td>
+		<td width="130" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p align="center"><br/>
+
+			</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="130" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p><font face="Cambria, serif">Recherches sur les algorithmes de
+			formes</font></p>
+		</td>
+		<td width="131" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p align="center"><br/>
+
+			</p>
+		</td>
+		<td width="131" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p align="center"><br/>
+
+			</p>
+		</td>
+		<td width="131" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p align="center"><font color="#00b050"><font size="4" style="font-size: 16pt"><b>X</b></font></font></p>
+		</td>
+		<td width="130" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p align="center"><font color="#00b050"><font face="Cambria, serif">x</font></font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="130" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p><font face="Cambria, serif">Gestionnaire de l’application</font></p>
+		</td>
+		<td width="131" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p align="center"><font color="#00b050"><font size="4" style="font-size: 16pt"><b>X</b></font></font></p>
+		</td>
+		<td width="131" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p align="center"><font color="#00b050"><font face="Cambria, serif">x</font></font></p>
+		</td>
+		<td width="131" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p align="center"><br/>
+
+			</p>
+		</td>
+		<td width="130" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p align="center"><br/>
+
+			</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="130" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p><font face="Cambria, serif">Traitement général de l’image</font></p>
+		</td>
+		<td width="131" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p align="center"><br/>
+
+			</p>
+		</td>
+		<td width="131" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p align="center"><br/>
+
+			</p>
+		</td>
+		<td width="131" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p align="center"><font color="#00b050"><font size="4" style="font-size: 16pt"><b>X</b></font></font></p>
+		</td>
+		<td width="130" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p align="center"><font color="#00b050"><font face="Cambria, serif">x</font></font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="130" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p><font face="Cambria, serif">Site web</font></p>
+		</td>
+		<td width="131" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p align="center"><br/>
+
+			</p>
+		</td>
+		<td width="131" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p align="center"><font color="#00b050"><font face="Cambria, serif">x</font></font></p>
+		</td>
+		<td width="131" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p align="center"><br/>
+
+			</p>
+		</td>
+		<td width="130" style="border: 1px solid #00000a; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<p align="center"><font color="#00b050"><font size="4" style="font-size: 16pt"><b>X</b></font></font></p>
+		</td>
+	</tr>
+</table>
+<p style="margin-bottom: 0.14in; line-height: 115%"><br/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0.14in; line-height: 115%"><br/>
+<br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0in; line-height: 100%">Légende&nbsp;:
+<font size="4" style="font-size: 16pt"><b>X</b></font> = chef de la
+tâche</p>
+<p align="justify" style="margin-bottom: 0in; line-height: 100%">    
+             <font color="#ff0000"><b>Rouge</b></font> = Commencé</p>
+<p align="justify" style="margin-bottom: 0in; line-height: 100%">    
+             <font color="#ffc000"><b>Orange</b></font> = Avancé</p>
+<p align="justify" style="margin-bottom: 0in; line-height: 100%">    
+             <font color="#00b050"><b>Vert</b></font> = Terminé</p>
+<ol start="4">
+	<li/>
+<h1 class="western"><a name="_Toc431935224"></a>Planification</h1>
+</ol>
+<p style="margin-bottom: 0in; line-height: 100%">Préciser&nbsp;les
+dates : 
+</p>
+<ul>
+	<li/>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Cambria, serif">début
+	du projet&nbsp;: 2 décembre 2016</font></p>
+	<li/>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Cambria, serif">remise
+	du cahier des charges&nbsp;: 9 janvier 2017</font></p>
+	<li/>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Cambria, serif">validation
+	du cahier des charges&nbsp;: 27 janvier 2017</font></p>
+	<li/>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Cambria, serif">revue
+	1 (R1)&nbsp;: 13-17 mars 2017</font></p>
+	<li/>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Cambria, serif">revue
+	2 (R2)&nbsp;: 24-28 avril 2017</font></p>
+	<li/>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Cambria, serif">soutenance
+	finale&nbsp;: 29-31 mai 2017</font></p>
+</ul>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<div title="footer">
+	<p style="margin-bottom: 0.14in; line-height: 115%"><span dir="ltr" style="float: left; width: 0.44in; height: 0.51in; border: none; padding: 0.05in 0.1in; background: #40618b">
+		<p align="center" style="margin-bottom: 0in; line-height: 100%"><font color="#ffffff"><sdfield type=PAGE subtype=RANDOM format=PAGE>5</sdfield></font></p>
+	</span><br/>
+<br/>
+
+	</p>
+	<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+	</p>
+</div>
+</body>
+</html>

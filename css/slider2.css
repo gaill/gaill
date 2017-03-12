@@ -1,0 +1,213 @@
+/*SLIDER BEGINNING ============================================================*/
+
+.carousel-video {
+	position: relative;
+	margin-top: 71px;
+}
+
+.carousel-video-background {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #1b1f24;
+}
+
+.video-replace-background {
+	background-image: url("../images/slider-background-01.jpg");
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+}
+
+.carousel-2-inner {
+	width: 90%;
+	height: auto;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+	top: 45%;
+	margin: 0 auto;
+}
+
+.carousel-2-inner .text-slider {
+	margin-top: 10px;
+}
+
+.carousel-control .icon-prev:before {
+	content: "";
+	background-image: url(../images/arrow-left-carousel.png);
+	background-size: 30px 30px;
+	height: 30px;
+	width: 30px;
+	position: absolute;
+	margin-left: -15px;
+}
+
+.carousel-control .icon-next:before {
+	content: "";
+	background-image: url(../images/arrow-right-carousel.png);
+	background-size: 30px 30px;
+	height: 30px;
+	width: 30px;
+	position: absolute;
+	right: 0;
+}
+
+.text-slider {
+	position: relative;
+	max-width: 90%;
+	top: 45%;
+	z-index: 0;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+
+.text-slider p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 50px;
+	font-weight: 700;
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+	text-shadow:1px 1px 2px #1b1f24;
+	line-height: 45px;
+}
+
+.text-slider p:nth-of-type(2) {
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 18px !important;
+	text-transform: none !important;
+}
+
+.carousel-control {
+	font-weight: bold;
+	top: 43%;
+	width: 59px;
+	height: 59px;
+	border: none;
+	padding-top: 0;
+	color: #fff;
+}
+
+.start-here {
+	position: absolute;
+	display: block;
+	bottom: -6px;
+	text-align: center;
+	width: 100%;
+}
+
+.start-here a {
+	display: inline-block;
+	background-image: url(../images/start-here.png);
+	background-size: 271px 109px;
+	height: 109px;
+	width: 271px;
+}
+
+.start-here span {
+	display: block;
+	font-size: 40px;
+	margin: 0 auto;
+}
+
+.start-here span i {
+	margin-top: 15px;
+	color: #fdb913;
+}
+
+.start-here span i:nth-of-type(1){
+	opacity: 0.4;
+}
+
+.start-here span i:nth-of-type(2){
+	font-size: 50px;
+	display: block;
+	margin-left: 4px;
+}
+
+/* Media Queries ============================================================*/
+
+ /*Large desktop */
+@media (max-width: 1200px) { 
+
+.carousel-2-inner {
+	width: 90%;
+	top: 40% !important;
+	margin: 0 auto;
+}
+
+ }
+
+
+ /* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { 
+
+.carousel-2-inner {
+	width: 90% !important;
+	top: 25% !important;
+	margin: 0 auto;
+}
+
+.carousel-control .icon-prev:before {
+	margin-top: -5px;
+}
+
+.carousel-control .icon-next:before {
+	margin-top: -5px;
+}
+
+ }
+
+ /* Landscape phones and down */
+@media (max-width: 480px) { 
+
+.carousel-2-inner {
+	width: 80% !important;
+	top: 30% !important;
+	margin: 0 auto;
+}
+
+.text-slider p {
+	font-size: 35px !important;
+	line-height: 35px !important;
+}
+
+.text-slider p:nth-of-type(2) {
+	font-size: 18px !important;
+	line-height: 18px !important;
+}
+
+.start-here a {
+	display: inline-block;
+	background-image: url(../images/start-here.png);
+	background-size: 220px 88px;
+	height: 88px;
+	width: 220px;
+}
+
+.start-here span i {
+	margin-top: 5px;
+}
+
+ }
+
+ @media (max-width: 320px) {
+	
+.text-slider p {
+	font-size: 25px !important;
+	line-height: 25px !important;
+}
+
+.text-slider p:nth-of-type(2) {
+	font-size: 16px !important;
+	line-height: 16px !important;
+}
+
+  }

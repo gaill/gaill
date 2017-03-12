@@ -1,0 +1,55 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #1b1f24;
+}
+
+h3 {
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+p {
+	font-family: 'Raleway', sans-serif;
+}
+
+.logo-theme img {
+	height: 75px;
+	width: 150px;
+	display: block;
+	margin: 150px auto 20px;
+}
+
+.logo-text p {
+	color: #fff;
+	text-align: center;
+}
+
+.chose-theme {
+	margin-top: 70px;
+}
+
+.chose-theme img {
+	height: 207px;
+	width: 250px;
+	display: block;
+	margin: 0 auto 50px;
+}
+
+.chose-text h3 {
+	text-align: center;
+	color: #fff;
+	text-transform: none;
+}
+
+.divus-logo {
+	height: 41px;
+	width: 60px;
+	display: block;
+	margin: 50px auto 0;
+}
+
+.divus-copyright p {
+	color: #fff;
+	text-align: center;
+	margin-bottom: 20px;
+}
